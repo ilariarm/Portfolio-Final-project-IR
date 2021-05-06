@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(243, 223, 240);
+  background-color: white;
   font-family: var(--default-font-family);
 }
 h1 {
@@ -63,4 +63,21 @@ p {
   line-height: 27px;
   padding: 5px;
   font-family: var(--default-font-family);
+}
+
+.project-description {
+  padding: 120px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 50px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
