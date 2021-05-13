@@ -89,6 +89,10 @@ p {
   .about-section img {
     margin-top: 5px;
   }
+
+  nav a {
+    font-size: 12px;
+  }
 }
 
 .navigation-links a {
@@ -142,7 +146,7 @@ content-container {
 }
 
 .logo {
-  max-width: 150px;
+  max-height: 40px;
 }
 
 nav {
