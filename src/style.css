@@ -81,7 +81,7 @@ p {
   .hero {
     padding: 80px 20px;
   }
-  .about-section {
+  .content-section {
     text-align: center;
     padding: 0;
   }
@@ -128,7 +128,8 @@ content-container {
 
 .content h3 {
   font-size: 20px;
-  margin-top: 5px;
+  line-height: 1.5;
+  margin: 20px 0 0;
 }
 
 .content p {
