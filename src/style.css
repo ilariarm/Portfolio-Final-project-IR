@@ -184,15 +184,23 @@ nav a:hover {
 }
 
 footer {
-  display: block;
   margin: 60px 0;
+}
+
+footer .contact-box {
+  background: #f9f7fe;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
 }
 
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-  text-align: center;
 }
 
 footer .email-link:hover {
@@ -200,11 +208,11 @@ footer .email-link:hover {
 }
 
 footer .social-links a {
-  border-radius: 50%;
   margin: 0 20px;
   color: var(--branding-color);
-  background-color: white;
+  background: var(--secondary-color);
   padding: 10px 14px;
+  border-radius: 50%;
   font-size: 18px;
   transition: all 100ms ease-in-out;
 }
@@ -212,14 +220,4 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
-}
-
-footer .contact-box {
-  background-color: #f9f7fe;
-  padding: 30px 120 px;
-  border-radius: 10px;
-}
-
-footer .contact-box p {
-  margin: 0;
 }
