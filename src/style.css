@@ -81,6 +81,13 @@ p {
   .hero {
     padding: 80px 20px;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .about-section img {
+    margin-top: 5px;
+  }
 }
 
 .navigation-links a {
